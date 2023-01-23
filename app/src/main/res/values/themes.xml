@@ -22,6 +22,22 @@
         <item name="android:textStyle">bold</item>
     </style>
 
+    <style name="ButtonPink">
+        <item name="android:background">@drawable/bg_button</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ButtonPurple">
+        <item name="android:background">@drawable/bg_reg_button</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
     <style name="Title">
         <item name="android:fontFamily">@font/montserrat</item>
         <item name="android:textColor">@color/black</item>
@@ -38,7 +54,7 @@
     <style name="TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
     <item name="android:textColorHint">@color/grey</item>
     <item name="hintTextColor">@color/grey</item>
-    <item name="startIconTint">@color/primary_color</item>
+    <item name="startIconTint">@color/pink</item>
     <item name="boxStrokeWidth">0dp</item>
     <item name="boxStrokeWidthFocused">0dp</item>
     </style>
